@@ -1,4 +1,4 @@
-module raptor
+module github.com/codegshinde/raptor
 
 go 1.21.5
 

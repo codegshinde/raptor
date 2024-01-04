@@ -1,8 +1,9 @@
 package tests
 
 import (
-	"raptor"
 	"testing"
+
+	"github.com/codegshinde/raptor"
 
 	"github.com/stretchr/testify/assert"
 )
