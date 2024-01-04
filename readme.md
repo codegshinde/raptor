@@ -2,6 +2,8 @@
 
 Raptor is a lightweight configuration manager package for Go.
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/codegshinde/raptor.svg)](https://pkg.go.dev/github.com/codegshinde/raptor)
+
 ## Installation
 
 To use Raptor in your Go project, you can install it using the following `go get` command:
