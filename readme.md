@@ -1,20 +1,22 @@
 # Raptor
 
-Raptor is a simple configuration manager package for Go.
+Raptor is a lightweight configuration manager package for Go.
 
 ## Installation
+
+To use Raptor in your Go project, you can install it using the following `go get` command:
 
 ```bash
 go get -u github.com/your-username/raptor
 
-
-Uses
+Usage
+Here's a simple example demonstrating how to use Raptor to manage configurations in your Go application:
 
 package main
 
 import (
 	"fmt"
-	"github.com/your-username/raptor"
+	"github.com/codegshinde/raptor"
 )
 
 func main() {
@@ -36,20 +38,23 @@ func main() {
 }
 
 
-
-Certainly! It looks like you've already created a good README file. Below is a more organized and formatted version based on what you provided:
+Certainly! Below is a complete and formatted README file for your Go package, Raptor:
 
 markdown
 Copy code
 # Raptor
 
-Raptor is a simple configuration manager package for Go.
+Raptor is a lightweight configuration manager package for Go.
 
 ## Installation
+
+To use Raptor in your Go project, you can install it using the following `go get` command:
 
 ```bash
 go get -u github.com/your-username/raptor
 Usage
+Here's a simple example demonstrating how to use Raptor to manage configurations in your Go application:
+
 go
 Copy code
 package main
@@ -77,6 +82,8 @@ func main() {
     fmt.Println("Value:", value)
 }
 API Reference
+Raptor provides the following functions for configuration management:
+
 SetConfigFile(filePath string) error: Sets the configuration file for Raptor.
 Get(key string) (string, error): Retrieves the value associated with a key from the configuration.
 Set(key, value string): Sets a key-value pair in the configuration.
@@ -84,6 +91,7 @@ Delete(key string): Removes a key from the configuration.
 GetAll() map[string]string: Returns the entire configuration map.
 
 Testing
+You can run tests for Raptor using the following commands:
 
 cd tests
 go test
