@@ -9,7 +9,7 @@ Raptor is a lightweight configuration manager package for Go.
 To use Raptor in your Go project, you can install it using the following `go get` command:
 
 ```bash
-go get -u github.com/your-username/raptor
+go get -u github.com/codegshinde/raptor
 
 ```
 ## Usage
@@ -20,7 +20,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/your-username/raptor"
+	"github.com/codegshinde/raptor"
 )
 
 func main() {
